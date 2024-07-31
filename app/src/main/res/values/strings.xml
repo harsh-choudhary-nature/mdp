@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Markov Decision Process</string>
+    <string name="plus">+</string>
+    <string name="delete">Delete State</string>
+    <string name="edit">Edit State</string>
+    <string name="add_action">Add action</string>
+    <string name="model">Define Model</string>
+    <string name="model_prob">Enter Probability</string>
+    <string name="model_reward">Enter Reward</string>
+    <string name="model_hint_state">Select Next State</string>
+    <string name="model_hint_action">Select Action</string>
+    <string name="get_prob_table">Get Prabability table</string>
+    <string name="state">State</string>
+    <string name="next_state">Next State</string>
+    <string name="action">Action</string>
+    <string name="prob">Probability</string>
+    <string name="reward">Reward</string>
+    <string name="policy">See Optimal Policies</string>
+</resources>

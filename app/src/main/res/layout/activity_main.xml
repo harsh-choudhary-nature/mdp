@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+<!--    for diagram-->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <FrameLayout
+            android:id="@+id/arrow_helper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/canvas"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/add_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="64dp"
+                    android:text="@string/plus"
+                    android:textSize="64sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/rounded_button"/>
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="ACD"-->
+    <!--                android:padding="8dp"-->
+    <!--                android:textSize="40sp"-->
+    <!--                android:background="@drawable/round_text_view"-->
+    <!--                android:layout_margin="8dp"/>-->
+            </LinearLayout>
+
+        </FrameLayout>
+    </HorizontalScrollView>
+<!--    for hidden controls-->
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/hidden_controls"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:visibility="invisible">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/delete_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delete" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/edit_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/edit" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/add_action_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/add_action" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/add_model_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/model" />
+        </LinearLayout>
+    </HorizontalScrollView>
+<!--    for controls-->
+    <LinearLayout
+        android:id="@+id/controls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/get_pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_prob_table" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
