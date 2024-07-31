@@ -14,14 +14,11 @@ MDPs provide a structured way to analyze decision-making under uncertainty, offe
 
 ## Screenshots
 
-![Screenshot 1](https://github.com/harsh-choudhary-nature/mdp/blob/main/Screenshot_2024-07-31-21-45-29-076_com.example.mdp.jpg)
-*Caption for Screenshot 1*
-
-![Screenshot 2](https://github.com/harsh-choudhary-nature/mdp/blob/main/Screenshot_2024-07-31-21-45-49-959_com.example.mdp.jpg)
-*Caption for Screenshot 2*
-
-![Screenshot 3](https://github.com/harsh-choudhary-nature/mdp/blob/main/Screenshot_2024-07-31-21-46-08-263_com.example.mdp.jpg)
-*Caption for Screenshot 3*
+<div style="display: flex; flex-direction: row; justify-content: space-around;">
+    <img src="https://github.com/harsh-choudhary-nature/mdp/blob/main/Screenshot_2024-07-31-21-45-29-076_com.example.mdp.jpg" alt="Screenshot 1" width="250" />
+    <img src="https://github.com/harsh-choudhary-nature/mdp/blob/main/Screenshot_2024-07-31-21-45-49-959_com.example.mdp.jpg" alt="Screenshot 2" width="250" />
+    <img src="https://github.com/harsh-choudhary-nature/mdp/blob/main/Screenshot_2024-07-31-21-46-08-263_com.example.mdp.jpg" alt="Screenshot 3" width="250" />
+</div>
 
 ## Contributing
 
